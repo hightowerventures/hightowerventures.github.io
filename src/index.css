@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom */
+.text-gold { color: #F0C75E; }
+.bg-htNight { background-color: #0B132B; }
