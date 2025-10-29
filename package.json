@@ -1,12 +1,14 @@
 {
   "name": "high-tower-ventures",
+  "homepage": "https://hightowerventures.github.io/",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
