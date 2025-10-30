@@ -20,7 +20,7 @@ export default function SubsidiaryDetail(){
       <p className='mt-4 text-gray-600'>Startup Capital: ${config.startupUSD.toLocaleString()} (₦{config.startupNGN.toLocaleString()})</p>
 
       <section className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-6'>
-        <div className='bg-white p-6 rounded shadow'>
+        <div className='bg-white p-6 rounded shadow'> 
           <h3 className='font-semibold'>Year 1 - Monthly Projection (USD)</h3>
           <table className='w-full mt-4 text-sm'>
             <thead>

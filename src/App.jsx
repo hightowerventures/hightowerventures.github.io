@@ -11,7 +11,7 @@ import Global from "./pages/Global";
 import Investors from "./pages/Investors";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
-import Technologies from "./pages/Subsidiaries/Technologies";
+import Technologies from "./pages/subsidiaries/Technologies";
 
 export default function App() {
   return (
