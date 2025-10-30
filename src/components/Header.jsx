@@ -9,7 +9,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-md bg-gradient-to-br from-htNight to-[#06202A] flex items-center justify-center text-htGold font-bold"><img
-          src="/src/Images/HTVV.png"
+          src="/HTVV.png"
           alt="High Tower Ventures Logo"
           className="object-contain w-14 h-14"
         /></div>
