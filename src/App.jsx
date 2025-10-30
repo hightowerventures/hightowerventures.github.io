@@ -11,6 +11,7 @@ import Global from "./pages/Global";
 import Investors from "./pages/Investors";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
+import Technologies from "./pages/Subsidiaries/Technologies";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/investors" element={<Investors />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/subsidiaries/technologies" element={<Technologies />} />
         </Routes>
       </main>
       <Footer />

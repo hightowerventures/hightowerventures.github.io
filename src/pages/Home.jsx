@@ -104,7 +104,7 @@ export default function Home(){
           <div className="bg-white rounded-xl shadow-md overflow-hidden">
             <img src="https://images.unsplash.com/photo-1645226880663-81561dcab0ae?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="" className="w-full h-44 object-cover"/>
             <div className="p-4">
-              <h3 className="font-semibold text-htNight">High Tower Real Estate</h3>
+              <h3 className="font-semibold text-htNight">High Tower Markets</h3>
               <p className="text-sm text-gray-600 mt-2">Forex, crypto and liquidity provision.</p>
             </div>
           </div>
