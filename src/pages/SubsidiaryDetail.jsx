@@ -18,6 +18,7 @@ export default function SubsidiaryDetail(){
     <main className='max-w-7xl mx-auto px-6 py-16'>
       <h2 className='text-3xl font-bold text-htNight'>{config.title}</h2>
       <p className='mt-4 text-gray-600'>Startup Capital: ${config.startupUSD.toLocaleString()} (₦{config.startupNGN.toLocaleString()})</p>
+      <p className="mt-4 text-gray-600"> Below is a 10-year profit projection this company can achieve with the stated startup capital to scale, grow and expand globally using a 50% reinvestment of revenue per month.   </p>
 
       <section className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-6'>
         <div className='bg-white p-6 rounded shadow'> 
@@ -49,7 +50,7 @@ export default function SubsidiaryDetail(){
             </tbody>
           </table>
 
-          <div className='mt-4'>Projected Valuations: Year3 ${valuations.year3.toLocaleString()}, Year5 ${valuations.year5.toLocaleString()}, Year10 ${valuations.year10.toLocaleString()}</div>
+          <div className='mt-4'>Projected Valuations: Year-3 ${valuations.year3.toLocaleString()}, Year-5 ${valuations.year5.toLocaleString()}, Year-10 ${valuations.year10.toLocaleString()}</div>
         </div>
       </section>
 

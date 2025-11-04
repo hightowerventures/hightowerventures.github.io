@@ -15,7 +15,7 @@ export default function Subsidiaries(){
   return (
     <main className="max-w-7xl mx-auto px-6 py-16">
       <h2 className="text-3xl font-bold text-htNight">Our Subsidiaries</h2>
-      <p className="mt-4 text-gray-600">Each subsidiary is built to scale and integrate with the High Tower ecosystem.</p>
+      <p className="mt-4 text-gray-600">Each subsidiary is built to scale and integrate with the High Tower ecosystem. Click on each subsidiary to view it's 10 year profit projection.</p>
 
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         {items.map(it => (

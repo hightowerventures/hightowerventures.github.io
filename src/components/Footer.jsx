@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <div className="text-lg font-semibold">High Tower Ventures</div>
-          <div className="mt-2 text-sm text-gray-300">Engineering the Future. Building the Towers of Tomorrow.</div>
+          <div className="mt-2 text-sm text-gray-300">Building the Towers of Tomorrow.</div>
         </div>
         <div>
           <div className="font-semibold">Offices</div>

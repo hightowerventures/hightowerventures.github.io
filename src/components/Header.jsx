@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-white/90 backdrop-blur sticky top-0 z-50 border-b">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-md bg-gradient-to-br from-htNight to-[#06202A] flex items-center justify-center text-htGold font-bold">
+          <div className="w-12 h-12 rounded-md bg-gradient-to-br from-htNight to-[#ffffff] flex items-center justify-center text-htGold font-bold">
           <img
             src="/HTVV.png"
             alt="High Tower Ventures Logo"
@@ -17,7 +17,7 @@ export default function Header() {
         </div>
           <div>
             <Link to="/" className="text-xl font-semibold text-htNight">High Tower Ventures</Link>
-            <div className="text-xs text-gray-500">Engineering the Future. Building the Towers of Tomorrow.</div>
+            <div className="text-xs text-gray-500">Engineering the Future.</div>
           </div>
         </div>
 
